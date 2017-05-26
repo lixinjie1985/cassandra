@@ -1,0 +1,2 @@
+start_rpc: true
+rpc_address: 192.168.95.57
