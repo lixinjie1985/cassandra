@@ -1,2 +1,19 @@
+cassandra.yaml
+cluster_name: 集群名称
+seeds: 逗号分隔的集群中所有节点IP列表
+storage_port: 没必要修改
+listen_address: 本节点IP
+native_transport_port: 没必要修改，和客户端通信的端口
+
 start_rpc: true
-rpc_address: 192.168.95.57
+rpc_address: 本节点IP
+
+data_file_directories: 一到多个目录
+commitlog_directory: 一个目录
+saved_caches_directory: 一个目录
+hints_directory: 一个目录
+
+
+logback.xml
+system.log
+debug.log
